@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: grabbing;
+}
+
+.cube {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #aaa;
+  transition: all 100ms;
+  background-size: 60px;
+  background-position: center;
+}
+
+.mole {
+  background: url('img/mole.jpg') no-repeat;
+  background-size: 90px;
+  background-position: center;
+}
